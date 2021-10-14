@@ -1,0 +1,25 @@
+{
+    "name": "qbus/ivm-pro-client-bundle",
+    "description": "Symfony bundle for the IVM Professional API client library qbus/ivm-pro-client",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "Qbus\\IvmProClientBundle\\": "src/"
+        }
+    },
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Alex Wuttke",
+            "email": "alw@qbus.de"
+        }
+    ],
+    "require": {
+        "qbus/ivm-pro-client": "dev-main",
+        "symfony/config": "4.4.*||5.3.*",
+        "symfony/dependency-injection": "4.4.*||5.3.*",
+        "symfony/framework-bundle": "4.4.*||5.3.*",
+        "symfony/http-client": "4.4.*||5.3.*",
+        "symfony/http-kernel": "4.4.*||5.3.*"
+    }
+}

@@ -1,0 +1,16 @@
+services:
+
+    ivm_pro_client.api_client:
+        class: Qbus\IvmProClient\ApiClient
+        arguments:
+            - '@psr18.http_client'
+            - '@psr18.http_client'
+            - '@psr18.http_client'
+            - '%ivm_pro_client.subdomain%'
+    Qbus\IvmProClient\ApiClient: '@ivm_pro_client.api_client'
+
+    ivm_pro_client.repository.unit:
+        class: Qbus\IvmProClient\Repository\UnitRepository
+        arguments:
+            - '@ivm_pro_client.api_client'
+    Qbus\IvmProClient\Repository\UnitRepository: '@ivm_pro_client.repository.unit'
