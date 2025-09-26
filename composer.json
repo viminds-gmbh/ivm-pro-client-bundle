@@ -1,5 +1,5 @@
 {
-    "name": "qbus/ivm-pro-client-bundle",
+    "name": "viminds-gmbh/ivm-pro-client-bundle",
     "description": "Symfony bundle for the IVM Professional API client library qbus/ivm-pro-client",
     "type": "symfony-bundle",
     "autoload": {
@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "qbus/ivm-pro-client": "dev-main",
+        "viminds-gmbh/ivm-pro-client": "dev-main",
         "symfony/config": "4.4.*||5.3.*",
         "symfony/dependency-injection": "4.4.*||5.3.*",
         "symfony/framework-bundle": "4.4.*||5.3.*",
