@@ -16,7 +16,7 @@
     ],
     "require": {
         "viminds-gmbh/ivm-pro-client": "dev-main",
-        "symfony/config": "4.4.*||5.3.*",
+        "symfony/config": "4.4.*||5.3.*||6.4",
         "symfony/dependency-injection": "4.4.*||5.3.*",
         "symfony/framework-bundle": "4.4.*||5.3.*",
         "symfony/http-client": "4.4.*||5.3.*",
